@@ -16,6 +16,7 @@
 		6F68AE4C2C5CCB1A006457FF /* QuestionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68AE4B2C5CCB1A006457FF /* QuestionTests.swift */; };
 		6F68AE562C5CCB1A006457FF /* QuestionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68AE552C5CCB1A006457FF /* QuestionUITests.swift */; };
 		6F68AE582C5CCB1A006457FF /* QuestionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68AE572C5CCB1A006457FF /* QuestionUITestsLaunchTests.swift */; };
+		6F68AE6B2C5CCC47006457FF /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68AE6A2C5CCC47006457FF /* QuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6F68AE512C5CCB1A006457FF /* QuestionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuestionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F68AE552C5CCB1A006457FF /* QuestionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionUITests.swift; sourceTree = "<group>"; };
 		6F68AE572C5CCB1A006457FF /* QuestionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6F68AE6A2C5CCC47006457FF /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				6F68AE342C5CCB19006457FF /* AppDelegate.swift */,
 				6F68AE362C5CCB19006457FF /* SceneDelegate.swift */,
 				6F68AE382C5CCB19006457FF /* ViewController.swift */,
+				6F68AE6A2C5CCC47006457FF /* QuestionViewController.swift */,
 				6F68AE3A2C5CCB19006457FF /* Main.storyboard */,
 				6F68AE3D2C5CCB1A006457FF /* Assets.xcassets */,
 				6F68AE3F2C5CCB1A006457FF /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F68AE392C5CCB19006457FF /* ViewController.swift in Sources */,
+				6F68AE6B2C5CCC47006457FF /* QuestionViewController.swift in Sources */,
 				6F68AE352C5CCB19006457FF /* AppDelegate.swift in Sources */,
 				6F68AE372C5CCB19006457FF /* SceneDelegate.swift in Sources */,
 			);
