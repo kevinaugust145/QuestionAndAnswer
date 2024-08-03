@@ -8,17 +8,45 @@
 import UIKit
 
 class QuestionViewController: UIViewController {
+  
+    
+    
+    
     @IBOutlet weak var AnswerLable: UILabel!
     
     @IBOutlet weak var QutstionLable:
     UILabel!
     var questions=[Question]()
     var index=0
+    var book=[Book]()
     
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var questions = [
+    
+        // 創建 CAGradientLayer
+                let gradientLayer = CAGradientLayer()
+                
+                // 設定漸變層的大小
+                gradientLayer.frame = view.bounds
+                
+                // 設定漸變的顏色
+                gradientLayer.colors = [
+                    UIColor.red.cgColor,
+                    UIColor.blue.cgColor
+                ]
+                
+                // 設定漸變的方向
+                gradientLayer.startPoint = CGPoint(x: 0, y: 0)
+                gradientLayer.endPoint = CGPoint(x: 1, y: 1)
+                
+                // 將漸變層添加到視圖的圖層中
+                view.layer.insertSublayer(gradientLayer, at: 0)
+
+        
+        
+         questions = [
             Question(text: "最好的星座", answer: "水瓶座"),
             Question(text: "最好的餐廳", answer: "麥當勞"),
             Question(text: "最喜歡的顏色", answer: "藍色"),

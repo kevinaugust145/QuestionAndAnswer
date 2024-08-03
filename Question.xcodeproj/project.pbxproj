@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F11234D2C5DA48300FD0D27 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F11234C2C5DA47A00FD0D27 /* Book.swift */; };
 		6F68AE352C5CCB19006457FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68AE342C5CCB19006457FF /* AppDelegate.swift */; };
 		6F68AE372C5CCB19006457FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68AE362C5CCB19006457FF /* SceneDelegate.swift */; };
 		6F68AE392C5CCB19006457FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F68AE382C5CCB19006457FF /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F11234C2C5DA47A00FD0D27 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		6F68AE312C5CCB19006457FF /* Question.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Question.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F68AE342C5CCB19006457FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F68AE362C5CCB19006457FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				6F68AE342C5CCB19006457FF /* AppDelegate.swift */,
 				6F68AE362C5CCB19006457FF /* SceneDelegate.swift */,
+				6F11234C2C5DA47A00FD0D27 /* Book.swift */,
 				6F68AE382C5CCB19006457FF /* ViewController.swift */,
 				6F68AE6A2C5CCC47006457FF /* QuestionViewController.swift */,
 				6F68AE3A2C5CCB19006457FF /* Main.storyboard */,
@@ -264,6 +267,7 @@
 				6F68AE392C5CCB19006457FF /* ViewController.swift in Sources */,
 				6F68AE6B2C5CCC47006457FF /* QuestionViewController.swift in Sources */,
 				6F68AE352C5CCB19006457FF /* AppDelegate.swift in Sources */,
+				6F11234D2C5DA48300FD0D27 /* Book.swift in Sources */,
 				6F68AE372C5CCB19006457FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
